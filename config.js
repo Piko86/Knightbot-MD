@@ -26,5 +26,11 @@ global.APIKeys = {
 module.exports = {
     WARN_COUNT: 3,
     APIs: global.APIs,
-    APIKeys: global.APIKeys
+    APIKeys: global.APIKeys,
+
+    // === NEW SETTINGS ===
+    PREFIX: ".",                 // Bot prefix
+    AUTO_REACT: "true",          // Auto random emoji react
+    CUSTOM_REACT: "false",       // Use custom emojis instead of random
+    CUSTOM_REACT_EMOJIS: "😂,🥲,🙂,👍🏻,😔" // Emojis for custom react
 };
