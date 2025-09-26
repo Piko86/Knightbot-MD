@@ -44,6 +44,7 @@ const { parsePhoneNumber } = require("libphonenumber-js")
 const { PHONENUMBER_MCC } = require('@whiskeysockets/baileys/lib/Utils/generics')
 const { rmSync, existsSync } = require('fs')
 const { join } = require('path')
+const config = require('./config');
 
 // Import lightweight store
 const store = require('./lib/lightweight_store')
